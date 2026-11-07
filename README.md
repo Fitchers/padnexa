@@ -1,20 +1,33 @@
 # Padnexa
 
-Программа для DualSense и DualSense Edge на Windows: по Bluetooth геймпад работает как по кабелю. В играх работают адаптивные курки, тактильная отдача (haptics), динамик и микрофон геймпада. Ещё в программе есть подсветка, раскладка на клавиатуру и мышь, эмуляция Xbox 360 и DualShock 4, профили для игр.
+Padnexa makes a DualSense or DualSense Edge on Windows work over Bluetooth the way it does over a cable. In games you get adaptive triggers, haptic feedback, and the controller's speaker and microphone.
 
-## Скачать
+It can also:
 
-Последняя версия на странице [Releases](https://github.com/Fitchers/padnexa/releases/latest):
+- set the light bar;
+- map the controller to keyboard and mouse;
+- emulate an Xbox 360 or DualShock 4 controller;
+- switch profiles automatically for each game.
 
-- **Padnexa-win-Setup.exe** — установка. Права администратора не нужны, программа появится на рабочем столе и в «Пуске» и будет обновляться сама.
-- **Padnexa-win-Portable.zip** — версия без установки.
+## Download
 
-При первом запуске программа предложит поставить нужные драйверы (usbip-win2, HidHide, ViGEmBus). Для каждого есть отдельная кнопка «Установить».
+Get the latest version from [Releases](https://github.com/Fitchers/padnexa/releases/latest):
 
-## Обновления
+- **Padnexa-win-Setup.exe** installs the program. It needs no administrator rights, adds shortcuts to the desktop and Start menu, and updates itself.
+- **Padnexa-win-Portable.zip** runs without installing.
 
-Установленная программа сама проверяет обновления, скачивает новую версию в фоне и ставит её при перезапуске. Настройка находится в разделе «Устройство» → «Обновления».
+On the first start, Padnexa offers to install the drivers it needs: usbip-win2, HidHide and ViGEmBus. Each driver has its own **Install** button.
+
+Windows SmartScreen may warn that the installer is unrecognized because it isn't code-signed yet. To continue, choose **More info** → **Run anyway**.
+
+## Languages
+
+Padnexa is available in English, Русский, Deutsch, Español, Français, Português (Brasil) and 简体中文. To change the language, use the list at the bottom of the sidebar.
+
+## Updates
+
+The installed program checks for new versions, downloads them in the background and installs them when you restart it. You can change this under **Device** → **Updates**.
 
 ---
 
-Padnexa — независимый проект и не связан с Sony Interactive Entertainment. DualSense и PlayStation — товарные знаки Sony Interactive Entertainment Inc.
+Padnexa is an independent project and is not affiliated with Sony Interactive Entertainment. DualSense and PlayStation are trademarks of Sony Interactive Entertainment Inc.
